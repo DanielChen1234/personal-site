@@ -30,9 +30,10 @@
 }
 
 .banner-text h1 {
-  font-size: 66px;
+  font-size: auto;
   font-weight: bold;
   color: white;
+  width: auto;
 }
 
 .banner-text hr {
@@ -47,15 +48,8 @@
   padding: 1em;
 }
 
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 25%;
-  margin: auto;
-}
-
 .social-links i {
   color: white;
-  font-size: 8em;
+  font-size: 4em;
   padding: 5px;
 }
