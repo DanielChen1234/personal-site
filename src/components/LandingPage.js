@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
 import {Grid, Cell} from 'react-mdl'
+import headShot from '../headShot.jpeg'
 
 export default class LandingPage extends Component {
   render() {
     return (
       <div style={{width: '100%', margin: 'auto'}}>
         <Grid className="landing-grid">
-          <Cell col={12}>
-            <img src='https://media.licdn.com/dms/image/C4D03AQE7rh66qhTBaA/profile-displayphoto-shrink_200_200/0?e=1551312000&v=beta&t=ZMAtZiU50OkmWA02D-JApPGquIWQLWl4oabFx8JmdkE'
+          <Cell col={12} className="head-shot">
+            <img src={headShot}
             alt='avatar'
             className='avatar-img' />
 
