@@ -14,35 +14,35 @@ export default class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: 'auto', height:'auto', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}} >Project Gif</CardTitle>
-            <CardText>
+            <CardText style={{height: '120px'}}>
               A web application that allows a user to search for any gif. Highlights are the sort and filter functionality. Pure React.
             </CardText>
             <CardActions border>
-              <Button colored  href='https://github.com/DanielChen1234/projectGif' target='_blank'>GitHub</Button>
+              <Button colored  href='https://github.com/DanielChen1234/projectGif' target='_blank' rel='noopener no referrer'>GitHub</Button>
             </CardActions>
           </Card>
 
           {/* Project 2 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: 'auto', height:'auto', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}} >Molli</CardTitle>
-            <CardText>
+            <CardText style={{height: '120px'}}>
               A react native application developed to leverage the popularity of e-sports and provide microtransaction gambling. React Native and Firebase.
             </CardText>
             <CardActions border>
-              <Button colored href='https://github.com/capstone-molli/molli'>GitHub</Button>
+              <Button colored href='https://github.com/capstone-molli/molli' target='_blank' rel='noopener no referrer'>GitHub</Button>
             </CardActions>
           </Card>
 
           {/* Project 3 */}
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+          <Card shadow={5} style={{minWidth: 'auto', height:'auto', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png) center / cover'}} >Cheer.</CardTitle>
-            <CardText>
+            <CardText style={{height: '120px'}}>
               A web application that leverages machine learning from Google Vision and render real-time directions via Google Geolocator. React, Express, and Sequelize.
             </CardText>
             <CardActions border>
-              <Button colored href='https://github.com/DanielChen1234/stackathon'>GitHub</Button>
+              <Button colored href='https://github.com/DanielChen1234/stackathon' target='_blank' rel='noopener no referrer'>GitHub</Button>
             </CardActions>
           </Card>
         </div>
@@ -57,7 +57,7 @@ export default class Projects extends Component {
               An e-commerce web application developed to facilitate transactions via Stripe. React, React-Redux, Express, Sequelize
             </CardText>
             <CardActions border>
-              <Button colored href='https://github.com/dfblGS/Dinosaurs'>GitHub</Button>
+              <Button colored href='https://github.com/dfblGS/Dinosaurs' target='_blank' rel='noopener no referrer'>GitHub</Button>
             </CardActions>
           </Card>
         </div>
