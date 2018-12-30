@@ -66,7 +66,8 @@
 .contact-body {
   margin: auto;
   width: auto;
-  height: 100%;
+  min-height: 100%;
+  max-height: 150%;
   justify-content: center;
   padding-top: 2em;
   padding-bottom: 5em;
@@ -97,8 +98,7 @@
 
 .contact-grid a {
   font-family: 'Raleway';
-  position: relative;
-  padding: 1em;
+  justify-content: center;
   color: blue;
   font-size: 15px;
   width: auto;
