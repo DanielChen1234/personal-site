@@ -5,7 +5,7 @@ import headShot from '../headShot.jpeg'
 export default class LandingPage extends Component {
   render() {
     return (
-      <div style={{width: '100%', margin: 'auto'}}>
+      <div>
         <Grid className="landing-grid">
           <Cell col={12} className="head-shot">
             <img src={headShot}
@@ -18,6 +18,8 @@ export default class LandingPage extends Component {
                 <hr />
 
                 <p>Javascript | React | React-Redux | Express | Sequelize</p>
+                
+                <a href='mailto:daniel.w.chen10@gmail.com'>daniel.w.chen10@gmail.com</a>
 
                 <div className="social-links">
                   <a href='https://www.linkedin.com/in/danielchen1234/' target='_blank' rel='noopener no referrer'>

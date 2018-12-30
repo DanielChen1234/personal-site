@@ -53,7 +53,7 @@ export default class Projects extends Component {
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
             <CardTitle style={{color: 'black', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*dlapmYAhWBkrFuHm020qlg.png) center / cover'}} >DinoShopper</CardTitle>
-            <CardText>
+            <CardText style={{height: '120px'}}>
               An e-commerce web application developed to facilitate transactions via Stripe. React, React-Redux, Express, Sequelize
             </CardText>
             <CardActions border>
